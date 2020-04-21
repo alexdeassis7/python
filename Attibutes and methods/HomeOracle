@@ -1,0 +1,217 @@
+FARADAY =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.64.220)(PORT = 1530))
+    (CONNECT_DATA = (SID = control))
+  )
+
+
+EXTPROC_CONNECTION_DATA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC0))
+    )
+    (CONNECT_DATA =
+      (SID = PLSExtProc)
+      (PRESENTATION = RO)
+    )
+  )
+
+BEM =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = 10.2.64.43)(Port = 1529))
+    (CONNECT_DATA =
+      (SID = bem)
+    )
+  )
+
+
+CERO =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = 10.2.64.43)(Port = 1536))
+    (CONNECT_DATA =
+      (SID = cero)
+    )
+  )
+
+
+SIMON =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = 10.2.64.43)(Port = 1528))
+    (CONNECT_DATA =
+      (SID = simon)
+    )
+  )
+
+SALIDAS =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = 10.2.64.43)(Port = 1531))
+    (CONNECT_DATA =
+      (SID = salidas)
+    )
+  )
+
+
+control =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = localhost)(Port = 1530))
+    (CONNECT_DATA =
+      (SID = control)
+    )
+   )
+
+control1521 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = localhost)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = control)
+    )
+   )
+
+localdatabase =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = localhost)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = control)
+    )
+   )
+
+fisc =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = loki-p)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = fisc)
+    )
+   )
+
+efi10kp =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = loki-p)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = efiscop)
+    )
+   )
+
+efisco_apps =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = localhost)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = efisco)
+    )
+   )
+
+base =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host = 10.2.64.87)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = base)
+    )
+   )
+
+DESA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.20.90.114)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORCL)
+    )
+  )
+
+FISC =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = loki-p)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = fisc)
+    )
+  )
+
+EFI10K =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = loki-p)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = efisco)
+    )
+  )
+
+EFI10KP =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = loki-p)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = efiscop)
+    )
+  )
+
+blade =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = efisco)
+    )
+  )
+
+rfi2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = fn1)(PORT = 1522))
+    )
+    (CONNECT_DATA =
+      (SID = RFI2)
+    )
+  )
+
+sefiwf8 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host =  11.30.4.49)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = sefiWF8)
+    )
+   )
+
+seficli1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host =  11.30.4.140)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = seficli1)
+    )
+   )
+seficli2 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(Host =  11.30.4.141)(Port = 1521))
+    (CONNECT_DATA =
+      (SID = seficli1)
+    )
+   )
+
+full =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.64.43)(PORT = 1535))
+    (CONNECT_DATA =
+      (SID = full)
+    )
+  )
+
+ctrl_bdg =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.64.43)(PORT = 1525))
+    (CONNECT_DATA =
+      (SID = control)
+    )
+  )
+
+
+padrro =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.2.64.84)(PORT = 1521))
+    (CONNECT_DATA =
+      (SID = padrro)
+    )
+  )
